@@ -21,7 +21,7 @@ En este documento encontrarás los **comandos básicos** de `git` con diferentes
 git clone https://github.com/usuario/repo.git
 ```
 
-## 3. ### `git status`
+## 3. `git status`
 
 `git status` muestra el estado actual del repositorio, incluyendo archivos modificados y cambios no confirmados.
 
@@ -30,7 +30,7 @@ git clone https://github.com/usuario/repo.git
 git status
 ```
 
-## 4. #### `git add`
+## 4. `git add`
 
 Este comando agrega cambios al área de preparación (_staging area_).
 
@@ -96,7 +96,7 @@ git checkout nombre-de-la-rama
 
 ---
 
-💡 **Consejo:** ¡Experimenta editando este archivo y probando los comandos en tu propio repositorio de Git para aprender mejor!
+
 
 
 ---
@@ -182,14 +182,14 @@ print("Hola, mundo!")
 
 - **Enlace:**
   ```markdown
-  [Texto del enlace](https://ejemplo.com)
+  [Texto del enlace](https://github.com/OmarRoano/practica_form_html)
   ```
 
-  [Visita GitHub](https://github.com)
+  [Visita GitHub](https://github.com/OmarRoano/practica_form_html)
 
 - **Imagen:**
   ```markdown
-  ![Texto alternativo](https://images.unsplash.com/photo-1726853546098-380e29da9e31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+  ![Ejemplo de imagen](https://images.unsplash.com/photo-1726853546098-380e29da9e31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
   ```
 
   ![Ejemplo de imagen](https://images.unsplash.com/photo-1726853546098-380e29da9e31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
@@ -247,4 +247,3 @@ Puedes crear listas de tareas:
 
 ---
 
-Con estos ejemplos, ahora tienes una referencia completa de los diferentes tipos de texto y elementos visuales que puedes crear usando Markdown. ¡Prueba y experimenta para familiarizarte más!
