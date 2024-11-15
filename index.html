@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzeria DEV.F</title>
+</head>
+<body>
+    <h1>Pizzeria DEV.F</h1>
+   
+    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+    alt="Pizza deliciosa"
+    width="200"
+    >
+    <br>
+    <br>
+    <hr>
+    
+    <h2>Información del cliente</h2>
+    <form>
+        <label for="nom">Nombre : </label>
+        <input
+            id="nom"
+            name="nombre_comppleto"
+            type="text"
+            placeholder="Ingresa tu nombre completo" 
+            minlength="2"
+            maxlength="50"
+            required
+        > 
+        <br><br>
+        
+        <label for="cor"> Correo : </label>
+        <input
+            id="cor"
+            name="correo"
+            type="text"
+            placeholder = "Ingresa tu correo electónico" 
+            minlength="2"
+            maxlength="50"
+            required
+        > 
+        <br><br>
+       
+        <label for="dir">Dirección : </label>
+        <input
+            id="dir"
+            name="direccion"
+            type="text"
+            placeholder="Ingresa tu dirección" 
+            minlength="2"
+            maxlength="100"
+            required
+        > 
+        <br>
+        <br>
+        <label for="h_entrega">En que horario te gustaria recibir tu pizza ? </label>
+        <input type="time" name="hora_entrega" id="h_entrega" required>
+        <br>
+        <br>
+
+        <label>Qué sabor te gustaria ordenar para tu pizza?
+            <select name="sabor_pizza" required>
+                <option value=""selected hidden disabled>Selecciona una opción</option>
+                <option value="napolitana">Napolitana</option>
+                <option value="peperoni">Peperoni</option>
+                <option value="vegana">Vegana</option>
+                <option value="quesos">4 quesos</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <button type="submit">Enviar pedido!</button>
+
+    </form>
+
+    <hr>
+
+
+</body>
+</html>
