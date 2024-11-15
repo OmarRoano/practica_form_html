@@ -1,4 +1,4 @@
-# Gia de comandos Git 
+# Guía de comandos Git 
 
 En este documento encontrarás los **comandos básicos** de `git` con diferentes estilos de texto para que puedas aprender tanto los comandos como el uso de archivos `.md`.
 
