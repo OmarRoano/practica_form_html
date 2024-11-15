@@ -6,7 +6,7 @@ En este documento encontrarás los **comandos básicos** de `git` con diferentes
 
 - **Descripción:**  
   Este comando inicializa un nuevo repositorio de Git.  
-  ✨ **Ejemplo de uso:**  
+  **Ejemplo de uso:**  
   ```bash
   git init
   ```
@@ -16,7 +16,7 @@ En este documento encontrarás los **comandos básicos** de `git` con diferentes
 > **Descripción:**  
 > Este comando se usa para clonar un repositorio existente desde un servidor remoto.
 
-✨ **Ejemplo de uso:**
+ **Ejemplo de uso:**
 ```bash
 git clone https://github.com/usuario/repo.git
 ```
@@ -25,7 +25,7 @@ git clone https://github.com/usuario/repo.git
 
 `git status` muestra el estado actual del repositorio, incluyendo archivos modificados y cambios no confirmados.
 
-💡 **Ejemplo de uso:**
+ **Ejemplo de uso:**
 ```bash
 git status
 ```
@@ -168,9 +168,10 @@ Para incluir citas, usa `>`.
 - **Código en línea:** Usa `` `código` ``.
 - **Bloques de código:**
   ```markdown
-  ```python
-  print("Hola, mundo!")
-  ```
+
+   ```python
+  print("Hola, mundo!") ```
+   
   ```
 
 Ejemplo:
@@ -189,7 +190,7 @@ print("Hola, mundo!")
 
 - **Imagen:**
   ```markdown
-  ![Ejemplo de imagen](https://images.unsplash.com/photo-1726853546098-380e29da9e31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+  ![Nombre de la imagen](https://images.unsplash.com/photo-1726853546098-380e29da9e31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
   ```
 
   ![Ejemplo de imagen](https://images.unsplash.com/photo-1726853546098-380e29da9e31?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
@@ -246,4 +247,5 @@ Puedes crear listas de tareas:
 - [ ] Tarea pendiente
 
 ---
+
 
